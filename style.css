@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%), url(gu.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.form{
+    width: 250px;
+    height: 330px;
+    color: rgb(0, 0, 0);
+    background: rgb(160, 120, 34);
+    /*this next code will help to come the box in cnetre*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px 25px;
+    border-radius: 10px;
+}
+.form h1{
+    width: 225px;
+    text-align: center;
+    padding-left: 11px;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+.form p{
+    padding-bottom: -15px;
+
+}
+.form input{
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px rgb(15, 14, 14);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgb(254, 251, 251);
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.form input[type="submit"]
+{
+    width: 60% ;
+    margin-left: 50px;
+    border: none;
+    height: 40px;
+    color: black;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+/*.form input[type="text"]{
+    width: 50%;
+    padding: 5px 5px;
+    height: 2px 0px;
+    outline-style: outset;
+  /*  box-sizing: content-box;
+    border: 2px black;
+    border-radius: 4px;*/
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid rgb(23, 21, 21);
+      }
+.form input[type="submit"]{
+    width: 60%;
+    margin-left: 50px;
+    border: none;
+    height: 40px;
+    color: black;
+    background: rgb(37, 72, 93);
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+.form input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(203, 22, 22);
+    color: white;
+    font-weight: bold;
+}
+.brand img{ /*brand class>>image*/
+    width: 65px;
+    padding: 0 8px ;
+
+}
+.brand{
+    color: azure;
+    font-weight: bolder;
+    align-items: center;
+    display: flex;
+    font-size: 1.3rem;
+}
